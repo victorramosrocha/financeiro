@@ -1,21 +1,46 @@
-<?php
-    include_once ('process/conn.php');
-    include_once ('helpers/url.php');
-?>
+<?php include_once('templates/header.php'); ?>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registro Financeiro</title>
-    <link rel="stylesheet" href="<?php echo $BASE_URL . 'css/styles.css'; ?>">
-</head>
-<body>
     <main id="main-content">
         <p>Bem-vindo ao sistema de registro financeiro da Rocha Developments</p>
         <h2>Novo Registro</h2>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col">
+                    
+                </div>
+                <div class="col">
+                    
+                </div>
+                <div class="col">
+                    
+                </div>
+                <div class="col">
+                    
+                </div>
+                <div class="col">
+                    
+                </div>
+                <div class="col">
+                    
+                </div>
+                <div class="col">
+                    
+                </div>
+                <div class="col">
+                    
+                </div>
+                <div class="col">
+                    
+                </div>
+                <div class="col">
+                    
+                </div>
+                <div class="col">
+                    
+                </div>
+            </div>
+        </div>
 
     </main>
-</body>
-</html>
+
+<?php include_once('templates/footer.php'); ?>
